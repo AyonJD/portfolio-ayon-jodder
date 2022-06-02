@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.logo{
+body {
+    background-color: #022C43;
+}
+
+.logo {
     font-family: 'Lobster', cursive;
     color: #fff;
 }
