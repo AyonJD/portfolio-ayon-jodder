@@ -9,7 +9,6 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -19,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#022C43] text-gray-300'>
       <div>
-        <img src={Logo} style={{ width: '50px' }} alt="Ayon Jodder Logo" />
+        <h1  className='logo text-4xl cursor-pointer'>Ayon Jodder</h1>
       </div>
 
       {/* menu */}

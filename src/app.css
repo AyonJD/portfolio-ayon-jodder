@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
 #cv-button {
     -webkit-border-radius: 4px;
     border-radius: 4px;
