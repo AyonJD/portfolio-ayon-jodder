@@ -1,0 +1,62 @@
+#cv-button {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #022c43;
+    -webkit-box-shadow: 7px 7px 7px #022234, -7px -7px 7px #023652;
+    box-shadow: 7px 7px 7px #022234, -7px -7px 7px #023652;
+}
+
+.my-name {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(0 0 0 / 40%) 1px 2px 1px;
+}
+
+.facebook-style {
+    background: rgba( 37, 99, 235, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+/* border-radius: 10px; */
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Button border animation */
+/* #cv-button::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #fff;
+    transition: height 0.2s linear, width 0.3s linear 0.2s;
+}
+
+#cv-button:hover::before {
+    height: 0;
+    width: 0;
+    border: 2px solid transparent;
+    border-bottom: none;
+    border-right: none;
+}
+
+#cv-button::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 2px solid #fff;
+    transition: height 0.2s linear, width 0.3s linear 0.2s;
+}
+
+#cv-button:hover::after {
+    height: 0;
+    width: 0;
+    border: 2px solid transparent;
+    border-top: none;
+    border-left: none;
+} */
