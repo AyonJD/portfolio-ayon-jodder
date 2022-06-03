@@ -99,6 +99,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300  linkedin-style'>
             <a
+              target="_blank" rel="noopener noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/ayon-jodder/'
             >
@@ -107,6 +108,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 github-style'>
             <a
+              target="_blank" rel="noopener noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/AyonJD'
             >
@@ -115,6 +117,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 email-style'>
             <a
+              target="_blank" rel="noopener noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:ayonjodder177@gmail.com'
             >
@@ -123,8 +126,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 resume-style'>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_blank" rel="noopener noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/17r1Ob0f4iwcZEaPHji2F7gQ9PmHcHvxN/view?usp=sharing'
             >
