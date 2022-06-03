@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Contact = () => {
   return (
@@ -6,12 +7,25 @@ const Contact = () => {
         <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#F7F700] text-gray-300 my-name bg-white'>Contact</p>
-                <p className='text-gray-300 py-4 my-name bg-white'>// Submit the form below or shoot me an email - myemail@gmail.com</p>
+                <p className='text-gray-300 py-4 my-name bg-white'>// Submit the form below or shoot me an email - ayonjodder177@gmail.com</p>
             </div>
             <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
             <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button id='cv-button' className='text-white border-2 hover:bg-[#F7F700] hover:border-[#F7F700] px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+        {/* <button id='cv-button' className='text-white px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate
+        <span className='group-hover:rotate-90 duration-300'>
+              <HiArrowNarrowRight className='ml-3 ' />
+            </span>
+        </button> */}
+
+        <div>
+            <button id='cv-button' className='hover:text-white text-white group bg-[#011e2e] hover:bg-transparent mx-auto px-10 py-3 my-5 flex items-center'>
+            Let's Collaborate
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3 ' />
+              </span>
+            </button>
+          </div>
         </form>
     </div>
   )
