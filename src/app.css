@@ -9,6 +9,14 @@ body {
     color: #fff;
 }
 
+.menu-item a {
+    background: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(0 0 0 / 40%) 1px 2px 1px;
+}
+
 #cv-button {
     -webkit-border-radius: 4px;
     border-radius: 4px;

@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#022C43]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1000px] mx-auto md:pt-0 pt-32 px-8 flex flex-col justify-center h-full'>
         <p className='text-[#F7F700] '>Hi, my name is -</p>
         <h1 className='text-4xl my-name mb-4 sm:text-7xl font-bold text-white bg-white'>
           Ayon Jodder
