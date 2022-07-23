@@ -23,6 +23,7 @@ const Work = () => {
             { to: "1", name: "MERN Projects" },
             { to: "1bis", name: "React Projects" },
             { to: "2", name: "JavaScript Applications" },
+            { to: "3", name: "HTML/CSS/Bootstrap" }
           ]}
         />
       </div>

@@ -4,6 +4,7 @@ import JavaScriptProjects from "./JavaScriptProjects";
 import Mern from "./Mern";
 import ReactProject from "./ReactProject";
 import AllProjects from "./AllProjects";
+import Templete from "./Templete";
 
 const TabsWrapper = styled.div`
   border-top: 1px solid #e0e0e0;
@@ -53,6 +54,8 @@ const Tabs = props => {
     projects = <ReactProject></ReactProject>
   } else if (selected === "2") {
     projects = <JavaScriptProjects></JavaScriptProjects>
+  } else if (selected === "3") {
+    projects = <Templete></Templete>
   } else {
     projects = <AllProjects></AllProjects>
   }
